@@ -1,0 +1,102 @@
+table {
+  width: 500px;
+  height: 500px;
+  border: 2px solid rgb(100, 100, 100);
+  border-collapse: collapse;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+highscoretable {
+  border: 2px solid rgb(100, 100, 100);
+  border-collapse: collapse;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+td,
+th {
+  border: 1px solid rgb(100, 100, 100);
+  padding: 10px 10px;
+  font-size: large;
+}
+
+td {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+p {
+  letter-spacing: -1px;
+}
+.toss,
+.bigplay {
+  /* letter-spacing: 0px; */
+  width: fit-content;
+  border: 2px solid rgb(100, 100, 100);
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: auto;
+    margin-bottom: auto; */
+  /* justify-content: center;  */
+  align-items: center;
+  padding: 10px 10px;
+  /* display: flex; */
+}
+
+.bigplay {
+  position: relative;
+}
+
+#cellid,
+#shootinfo {
+  text-align: center;
+  padding: 15px;
+  font-size: xx-large;
+}
+
+.toss {
+  /* display: inline-table; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* position: absolute; */
+  font-size: larger;
+}
+
+#playdiv {
+  padding: 10px;
+}
+
+#play {
+  display: flex;
+  margin: auto;
+}
+
+/* .cell{
+  font-size: large;
+} */
+
+#highscorebtn {
+  display: flex;
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 10px;
+}
