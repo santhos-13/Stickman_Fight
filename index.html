@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="highscorediv">
+      <button id="highscorebtn">HIGHSCORES</button>
+      <table class="highscoretable hide">
+        <tr>
+          <th>HIGHSCORES</th>
+        </tr>
+        <tr>
+          <td id="11"></td>
+        </tr>
+        <tr>
+          <td id="12"></td>
+        </tr>
+        <tr>
+          <td id="13"></td>
+        </tr>
+        <tr>
+          <td id="14"></td>
+        </tr>
+        <tr>
+          <td id="15"></td>
+        </tr>
+      </table>
+    </div>
+    <table class="table hide">
+      <colgroup>
+        <col />
+        <col class="player1" />
+        <col class="player2" />
+      </colgroup>
+      <tr>
+        <th>BOX NO.</th>
+        <th>Player 1</th>
+        <th>Player 2</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td class="cell" id="0"></td>
+        <td class="cell" id="5"></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td class="cell" id="1"></td>
+        <td class="cell" id="6"></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td class="cell" id="2"></td>
+        <td class="cell" id="7"></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td class="cell" id="3"></td>
+        <td class="cell" id="8"></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td class="cell" id="4"></td>
+        <td class="cell" id="9"></td>
+      </tr>
+    </table>
+    <div class="bigplay hide">
+      <div id="playdiv"></div>
+      <button id="play">PLAY</button>
+    </div>
+    <div id="cellid"></div>
+    <div id="shootinfo"></div>
+
+    <div class="toss">
+      <p>Player 1, choose between</p>
+      <button id="heads">Heads</button>
+      <button id="tails">Tails</button>
+    </div>
+    <h1 class="p1toss hide">Player 1 won the toss</h1>
+    <h1 class="p2toss hide">Player 2 won the toss</h1>
+
+    <script src="script.js"></script>
+  </body>
+</html>
